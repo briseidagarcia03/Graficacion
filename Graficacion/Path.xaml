@@ -1,0 +1,17 @@
+﻿<Window x:Class="Graficacion.Path"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Graficacion"
+        mc:Ignorable="d"
+        Title="Path" Height="450" Width="800">
+    <Canvas>
+        <Path Stroke="Black" StrokeThickness="4" Data="M5,5 105,5 105,105 5,105 Z M125,5 225,5"></Path>
+        <Path Stroke="Black" StrokeThickness="4" Fill="HotPink" 
+              Data="F1 M550,200 L600,300 500,300Z M525,225 H575 V325 H525Z "></Path>
+        <Path Stroke="Black" StrokeThickness="4" Fill="HotPink" 
+              Data="F0 M450,200 l600,300 500,300Z M425,225 H475 V325 H425Z "></Path>
+        
+    </Canvas>
+</Window>

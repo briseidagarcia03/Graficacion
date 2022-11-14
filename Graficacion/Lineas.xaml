@@ -1,0 +1,15 @@
+﻿<Window x:Class="Graficacion.Lineas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Graficacion"
+        mc:Ignorable="d"
+        Title="Lineas" Height="450" Width="800">
+    <Canvas>
+        <Line X1="5" Y1="5" Stroke="HotPink" StrokeThickness="4" X2="105" Y2="5"></Line>
+        <Line X1="5" Y1="5" Stroke="HotPink" StrokeThickness="4" X2="5" Y2="105"></Line>
+        <Line X1="105" Y1="5" Stroke="HotPink" StrokeThickness="4" X2="105" Y2="105"></Line>
+        <Line X1="105" Y1="105" Stroke="HotPink" StrokeThickness="4" X2="5" Y2="105"></Line>
+    </Canvas>
+</Window>

@@ -1,0 +1,21 @@
+﻿<Window x:Class="Graficacion_3.Lapiz"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Graficacion_3"
+        mc:Ignorable="d"
+        Title="Lapiz" Height="450" Width="800">
+    <Canvas>
+        <Canvas Canvas.Left="200" Canvas.Top="100">
+            <Canvas.RenderTransformOrigin>
+                <Point X="1" Y="1"></Point>
+            </Canvas.RenderTransformOrigin>
+            <Canvas.RenderTransform>
+                <RotateTransform Angle="16"></RotateTransform>
+            </Canvas.RenderTransform>
+            <Path Stroke="Black" StrokeThickness="4" Data="M0,0 0,200 18,236 34, 200 34,0 A12,10 0 0 0 0,0Z"></Path>
+            <!--<Path Stroke="Black" StrokeThickness="4" Data="L32,10 10,10"></Path>-->
+        </Canvas>
+    </Canvas>
+</Window>

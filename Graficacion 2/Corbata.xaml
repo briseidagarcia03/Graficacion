@@ -1,0 +1,25 @@
+﻿<Window x:Class="Graficacion_2.Corbata"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Graficacion_2"
+        mc:Ignorable="d"
+        Title="Corbata" Height="600" Width="800">
+    <Canvas>
+        <Path Stroke="Black" StrokeThickness="4" Data="M100, 100 240,100 260,150 230,240 280,440 180,500
+              80,440 120,240 80,150z" >
+            <Path.Fill>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="Purple" Offset="0.0"></GradientStop>
+                    <GradientStop Color="Gold" Offset="0.20"></GradientStop>
+                    <GradientStop Color="Purple" Offset="0.40"></GradientStop>
+                    <GradientStop Color="Gold" Offset="0.60"></GradientStop>
+                    <GradientStop Color="Purple" Offset="0.80"></GradientStop>
+                    <GradientStop Color="Gold" Offset="1"></GradientStop>
+                    
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+    </Canvas>
+</Window>

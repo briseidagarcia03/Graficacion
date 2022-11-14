@@ -1,0 +1,27 @@
+﻿<Window x:Class="Graficacion.Casette"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Graficacion"
+        mc:Ignorable="d"
+        Title="Casette" Height="450" Width="800">
+    <Canvas Margin="-1,0,1,0">
+        <Path Stroke="Black" StrokeThickness="4" Canvas.Top="60" Canvas.Left="60" Fill="Black"
+              Data="M5, 5 100,5 120,20 120,120 5, 120 5,5Z"></Path>
+        <Rectangle Stroke="White" StrokeThickness="2" Canvas.Top="156" Canvas.Left="166" Fill="White"
+                   Width="7" Height="7"></Rectangle>
+        <Path Stroke="Gray" StrokeThickness="4" Canvas.Top="60" Canvas.Left="60" Fill="Gray"
+              Data="M35, 40 35,5 90,5 90,40 35,40Z"></Path>
+        <Rectangle Stroke="Black" StrokeThickness="2" Canvas.Top="74" Canvas.Left="130" Fill="Black" RadiusX="2" RadiusY="2"
+                   Width="14" Height="24"></Rectangle>
+        <Path Stroke="white" StrokeThickness="4" Canvas.Top="60" Canvas.Left="60" Fill="White"
+            Data="M24, 52 24,105 101,105 101, 52Z"></Path>
+        <Polyline Canvas.Top="118" Canvas.Left="87" StrokeStartLineCap="Round" StrokeDashArray="1"
+            Points="5, 5,15 5, 15 5,25 5, 35 5,45 5, 55 5, 65 5 " Stroke="Black" StrokeThickness="1"></Polyline>
+        <Label Canvas.Top="118" Canvas.Left="88" Foreground="Red" FontStyle="Italic" FontWeight="Bold" FontSize="10">Informacion</Label>
+        <Label Canvas.Top="128" Canvas.Left="87" Foreground="Blue" FontWeight="Bold" FontSize="10">Confidencial</Label>
+        <Path Stroke="red" StrokeThickness="4" Canvas.Top="60" Canvas.Left="60"   Fill="Red"
+            Data="M24, 100 24,106 101,106 101,100Z"></Path>
+    </Canvas>
+</Window>
