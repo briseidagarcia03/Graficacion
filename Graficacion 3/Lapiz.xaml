@@ -15,7 +15,12 @@
                 <RotateTransform Angle="16"></RotateTransform>
             </Canvas.RenderTransform>
             <Path Stroke="Black" StrokeThickness="4" Data="M0,0 0,200 18,236 34, 200 34,0 A12,10 0 0 0 0,0Z"></Path>
-            <!--<Path Stroke="Black" StrokeThickness="4" Data="L32,10 10,10"></Path>-->
+            <Path Stroke="Black" StrokeThickness="3" Data="M0,10Q10,5 32,10"></Path>
+            <Path Stroke="Black" StrokeThickness="2" Data="M0,30Q15,20 32,29"></Path>
+            <Path Stroke="Black" StrokeThickness="2" Data="M0,40Q15,30 32,39"></Path>
+            <Path Stroke="Black" StrokeThickness="3" Data="M0,60Q15,55 32,60"></Path>
+            <Path Stroke="Black" StrokeThickness="2" Data="M0,200Q15,190 32,200"></Path>
+            <Path Stroke="Black" StrokeThickness="2" Data="M13,230Q15,220 22,230"></Path>
         </Canvas>
     </Canvas>
 </Window>

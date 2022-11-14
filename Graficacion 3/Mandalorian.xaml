@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Graficacion_3"
         mc:Ignorable="d"
-        Title="Mandalorian" Height="450" Width="200" Background="Black">
+        Title="Mandalorian" Height="450" Width="800" Background="Black">
     <Canvas>
         <Canvas.Background>
-            <VisualBrush Viewport="0,0 1 0.5" TileMode="FlipY">
+            <VisualBrush Viewport="0,0 0.5 1" TileMode="FlipXY">
                 <VisualBrush.Visual>
-                    <Canvas Canvas.Top="60">
+                    <Canvas>
                         <Canvas.RenderTransformOrigin>
                             <Point X="1" Y="1"></Point>
                         </Canvas.RenderTransformOrigin>

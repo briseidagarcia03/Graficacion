@@ -7,6 +7,18 @@
         mc:Ignorable="d"
         Title="Medidor" Height="450" Width="800">
     <Canvas>
-        <Ellipse Canvas.Left="200" Canvas.Top="100"  Height="200" Width="200" Fill="#254c79"></Ellipse>
+        <Ellipse Canvas.Left="203" Canvas.Top="100"  Height="200" Width="200" Fill="#254c79"></Ellipse>
+        <Path Stroke="White" StrokeThickness="4" Canvas.Top="224" Canvas.Left="223" Fill="White" 
+              Data="M0,10 160,10 Q180,-100 80,-100Q-20,-100 0,8Z"></Path>
+        <Path Stroke="#41ACAA" StrokeThickness="2" Canvas.Top="110" Canvas.Left="235" Fill="#41ACAA"
+             Data="M0,120 30,111Q20,80 40,60L10,50Q-10,80 0,120Z "></Path>
+        <Path Stroke="#FFCE34" StrokeThickness="2" Canvas.Top="140" Canvas.Left="245" Fill="#FFCE34"
+              Data="M0,18 30,30 Q60,10 90,30L115,20Q60,-35 0,20"></Path>
+        <Path Stroke="#e8175e" StrokeThickness="2" Canvas.Top="160" Canvas.Left="335" Fill="#E8175E"
+              Data="M0,10 25,0Q50,30 32,70L5,55Q20,30 0,10Z"></Path>
+        <Path Stroke="#4B5057" StrokeThickness="2" Canvas.Top="205" Canvas.Left="300" Fill="#4B5057"
+             Data="M0,10 10,16 30,-40Z"></Path>
+        <Ellipse Stroke="#A6A8AB" StrokeThickness="3" Fill="#4B5057" Canvas.Left="295" Canvas.Top="205"
+                 Height="22" Width="22"></Ellipse>
     </Canvas>
 </Window>
